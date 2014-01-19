@@ -51,6 +51,8 @@ def load_modules():
     htpc.ROOT.sabnzbd = Sabnzbd()
     from modules.couchpotato import Couchpotato
     htpc.ROOT.couchpotato = Couchpotato()
+    from modules.headphones import Headphones
+    htpc.ROOT.headphones = Headphones()
     from modules.sickbeard import Sickbeard
     htpc.ROOT.sickbeard = Sickbeard()
     from modules.transmission import Transmission
